@@ -32,3 +32,10 @@
   align-items: center;
   justify-content: center;
 }
+
+.cta_container button img {
+  --img_size: 26px;
+  max-width: var(--img_size);
+  min-width: var(--img_size);
+  width: 100%;
+}

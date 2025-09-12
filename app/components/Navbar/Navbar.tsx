@@ -8,7 +8,7 @@ import Drawer from "./Drawer";
 import Drawerdata from "./Drawerdata";
 import Signdialog from "./Signdialog";
 import Registerdialog from "./Registerdialog";
-import { IoLogoWhatsapp } from "react-icons/io";
+import { IoLogoWhatsapp } from "react-icons/io5";
 import styles from "./nav.module.css";
 import { FaArrowTrendUp } from "react-icons/fa6";
 import CTAContainer from "@/app/utils/cta-container";
@@ -95,7 +95,8 @@ const Navbar = () => {
             <div className={styles.cta_container}>
               <CTAContainer>
                 <button className={styles.cta_wa}>
-                  <IoLogoWhatsapp size={23} />
+                  {/* <IoLogoWhatsapp size={23} /> */}
+                  <img src="/whatsapp.png" alt="" />
                   <p>Contact us</p>
                 </button>
               </CTAContainer>
@@ -103,7 +104,8 @@ const Navbar = () => {
               <Link href="#services">
                 <button className={styles.cta_services}>
                   <p>Services</p>
-                  <FaArrowTrendUp />
+                  <img src="/uptrend.png" alt="" />
+                  {/* <FaArrowTrendUp /> */}
                 </button>
               </Link>
             </div>
