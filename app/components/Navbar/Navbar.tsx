@@ -1,3 +1,5 @@
+"use client";
+
 import { Disclosure } from "@headlessui/react";
 import { Bars3Icon } from "@heroicons/react/24/outline";
 import Link from "next/link";
@@ -9,6 +11,7 @@ import Registerdialog from "./Registerdialog";
 import { IoLogoWhatsapp } from "react-icons/io";
 import styles from "./nav.module.css";
 import { FaArrowTrendUp } from "react-icons/fa6";
+import CTAContainer from "@/app/utils/cta-container";
 
 interface NavigationItem {
   name: string;
@@ -90,14 +93,19 @@ const Navbar = () => {
             {/* <Registerdialog /> */}
 
             <div className={styles.cta_container}>
-              <button className={styles.cta_wa}>
-                <IoLogoWhatsapp size={23} />
-                <p>Contact us</p>
-              </button>
-              <button className={styles.cta_services}>
-                <p>Services</p>
-                <FaArrowTrendUp />
-              </button>
+              <CTAContainer>
+                <button className={styles.cta_wa}>
+                  <IoLogoWhatsapp size={23} />
+                  <p>Contact us</p>
+                </button>
+              </CTAContainer>
+
+              <Link href="#services">
+                <button className={styles.cta_services}>
+                  <p>Services</p>
+                  <FaArrowTrendUp />
+                </button>
+              </Link>
             </div>
 
             {/* DRAWER FOR MOBILE VIEW */}

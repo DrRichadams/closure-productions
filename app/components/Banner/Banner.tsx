@@ -1,3 +1,4 @@
+import CTAContainer from "@/app/utils/cta-container";
 import Image from "next/image";
 
 const Banner = () => {
@@ -17,12 +18,14 @@ const Banner = () => {
           </div>
 
           <div className="text-center mt-5">
-            <button
-              type="button"
-              className="text-15px text-white font-medium bg-blue py-5 px-9 mt-2 leafbutton"
-            >
-              Get in touch with us
-            </button>
+            <CTAContainer>
+              <button
+                type="button"
+                className="text-15px text-white font-medium bg-blue py-5 px-9 mt-2 leafbutton"
+              >
+                Get in touch with us
+              </button>
+            </CTAContainer>
             {/* <button
               type="button"
               className="text-15px ml-4 mt-2 text-blue transition duration-150 ease-in-out hover:text-white hover:bg-blue font-medium py-5 px-16 border border-lightgrey leafbutton"
@@ -32,7 +35,7 @@ const Banner = () => {
           </div>
 
           <Image
-            src={"/assets/banner/dashboard.svg"}
+            src={"/assets/banner/dashboard.png"}
             alt="banner-image"
             width={1200}
             height={598}
