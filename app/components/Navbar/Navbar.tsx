@@ -8,6 +8,7 @@ import Signdialog from "./Signdialog";
 import Registerdialog from "./Registerdialog";
 import { IoLogoWhatsapp } from "react-icons/io";
 import styles from "./nav.module.css";
+import { FaArrowTrendUp } from "react-icons/fa6";
 
 interface NavigationItem {
   name: string;
@@ -17,10 +18,10 @@ interface NavigationItem {
 
 const navigation: NavigationItem[] = [
   { name: "Home", href: "/", current: true },
-  { name: "Services", href: "#services", current: false },
+  // { name: "Services", href: "#services", current: false },
   { name: "About", href: "#about", current: false },
-  { name: "Contact", href: "#contact", current: false },
-  { name: "blog", href: "https://blog.globaldnaint.com/", current: false },
+  // { name: "Contact", href: "#contact", current: false },
+  { name: "Blog", href: "https://blog.globaldnaint.com/", current: false },
 ];
 
 function classNames(...classes: string[]) {
@@ -91,9 +92,12 @@ const Navbar = () => {
             <div className={styles.cta_container}>
               <button className={styles.cta_wa}>
                 <IoLogoWhatsapp size={23} />
-                <p>Get in touch</p>
+                <p>Contact us</p>
               </button>
-              <button>Services</button>
+              <button className={styles.cta_services}>
+                <p>Services</p>
+                <FaArrowTrendUp />
+              </button>
             </div>
 
             {/* DRAWER FOR MOBILE VIEW */}

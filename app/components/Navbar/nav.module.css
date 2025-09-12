@@ -14,8 +14,21 @@
 
 .cta_wa {
   /* background-color: red; */
-  padding: 8px 1rem;
+  background-color: #45ce38;
+  padding: 6px 1rem;
   border-radius: 12px;
-  color: #45ce38;
+  /* color: #45ce38; */
+  color: #fff;
   border: 2px solid #45ce38;
+}
+
+.cta_services {
+  /* background-color: #45ce38; */
+  padding: 8px 1rem;
+  /* border-radius: 12px; */
+  color: rgb(0, 13, 255);
+  /* border: 2px solid #45ce38; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
