@@ -1,0 +1,52 @@
+.testimonial_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 3rem;
+  gap: 12px;
+  padding: 1rem;
+}
+
+.testi_img {
+  --img_size: 168px;
+  width: var(--img_size);
+  height: var(--img_size);
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px dotted #ccc;
+  padding: 6px;
+}
+
+.testi_name {
+  font-weight: 500;
+  font-size: 1.5rem;
+}
+
+.testi_org {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+}
+
+.testimonial {
+  font-size: 0.9rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.small_circle {
+  --small_box_size: 10px;
+  height: var(--small_box_size);
+  width: var(--small_box_size);
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.testimonial_swiper {
+  padding: 3rem; /* Space for pagination */
+}

@@ -1,0 +1,158 @@
+.services_container {
+  /* min-height: 100vh;
+  height: 100%; */
+  padding: 3rem 10rem;
+  margin-bottom: 12rem;
+}
+
+.title {
+  font-weight: 900;
+  font-size: 3rem;
+  background: linear-gradient(90deg, #0e0035, #3f3f3f);
+  width: fit-content;
+  -webkit-background-clip: text;
+  color: transparent;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  font-size: 1.9rem;
+  margin-top: 1rem;
+  font-weight: 300 !important;
+  line-height: 2.5rem;
+  color: #555;
+  /* text-transform: uppercase; */
+  padding-right: 8rem;
+}
+
+.subtitle span {
+  font-weight: 600 !important;
+  text-transform: uppercase;
+  color: #0430f2;
+  font-size: 2rem;
+  text-decoration: underline;
+}
+
+.services_listing_container {
+  min-height: 100vh;
+}
+
+.service_item {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.service_collage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-top: 4rem;
+  flex: 1;
+  position: relative;
+}
+
+.image_placeholder {
+  width: 100%;
+  height: 12rem;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  transition: all 300ms ease;
+}
+
+.image_placeholder img {
+  transition: all 300ms ease;
+  cursor: url("/public/pointer.png") 12 12, auto;
+  scale: 1.4;
+}
+
+.service_details {
+  flex: 1;
+}
+
+.service_icon {
+  position: absolute;
+  z-index: 2;
+  background-color: #f5f5f5;
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.service_icon img {
+  width: 70%;
+}
+
+.image_placeholder:hover img {
+  scale: 1.5;
+}
+
+.service_title {
+  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+.quality_tag {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.quality_tag span {
+  color: rgb(162, 162, 162);
+  font-size: 0.85rem;
+  text-transform: uppercase;
+}
+
+.quality_tag img {
+  width: 25px;
+  height: 25px;
+}
+
+.service_cta_btn {
+  background-color: #45ce38;
+  color: #fff;
+  margin-top: 1rem;
+  padding: 8px 1.5rem;
+  border-radius: 8px;
+}
+
+.row {
+  flex-direction: row !important;
+}
+
+.row_reverse {
+  flex-direction: row-reverse !important;
+}
+
+.closure_dna_show_advertising {
+  padding: 12rem 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.closure_dna_show_advertising h2 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.closure_dna_show_advertising p {
+  font-size: 0.85remrem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+}

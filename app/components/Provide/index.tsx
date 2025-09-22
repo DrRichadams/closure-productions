@@ -47,7 +47,7 @@ const Provide = () => {
                 connect.
               </h4>
               <Link
-                href={"/"}
+                href={"/services"}
                 className="mt-4 text-xl font-medium text-blue flex gap-2 mx-auto lg:mx-0 space-links"
               >
                 Explore more services{" "}
