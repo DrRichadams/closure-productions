@@ -1,0 +1,184 @@
+[
+  {
+    "title": "Corporate marketing",
+    "icon": "/assets/provide/weddings.svg",
+    "gallary": [
+      "/assets/services/corporate-marketing/corporate1.jpg",
+      "/assets/services/corporate-marketing/corporate2.jpg",
+      "/assets/services/corporate-marketing/corporate3.jpg",
+      "/assets/services/corporate-marketing/corporate4.jpg"
+    ],
+    "tag_line": "Lightning Fast Delivery",
+    "subscript": "Capture every special moment and milestone with our expert coverage for corporate events and weddings. We ensure your memories and achievements are preserved with stunning visuals and professional storytelling.",
+    "cta_message": "Hi, can I get a rate card for Weddings and corporate events"
+  },
+  {
+    "title": "Live streaming",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/Live-streaming/live1.jpg",
+      "/assets/services/Live-streaming/live2.jpg",
+      "/assets/services/Live-streaming/live3.jpg",
+      "/assets/services/Live-streaming/live4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  },
+  {
+    "title": "Video productions",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/Video-production/vip1.jpg",
+      "/assets/services/Video-production/vip2.jpg",
+      "/assets/services/Video-production/vip3.jpg",
+      "/assets/services/Video-production/vip4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  },
+  {
+    "title": "Documentaries",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/Documentaries/doc1.jpg",
+      "/assets/services/Documentaries/doc2.jpg",
+      "/assets/services/Documentaries/doc3.jpg",
+      "/assets/services/Documentaries/doc4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  },
+  {
+    "title": "Animation videos",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/Animation-videos/animate1.jpg",
+      "/assets/services/Animation-videos/animate2.jpg",
+      "/assets/services/Animation-videos/animate3.jpg",
+      "/assets/services/Animation-videos/animate4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  },
+  {
+    "title": "Advertisements",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/Advertisements/ads6.jpg",
+      "/assets/services/Advertisements/ads2.jpg",
+      "/assets/services/Advertisements/ads7.jpg",
+      "/assets/services/Advertisements/ads4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  },
+  {
+    "title": "Motion graphics",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/Motion-graphics/motion1.jpg",
+      "/assets/services/Motion-graphics/motion2.jpg",
+      "/assets/services/Motion-graphics/motion3.jpg",
+      "/assets/services/Motion-graphics/motion4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  },
+  {
+    "title": "E-comm photography",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/E-comm-photography/prod1.jpg",
+      "/assets/services/E-comm-photography/prod2.jpg",
+      "/assets/services/E-comm-photography/prod3.jpg",
+      "/assets/services/E-comm-photography/prod4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  },
+  {
+    "title": "Cinematography",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/Cinematography/cinema1.jpg",
+      "/assets/services/Cinematography/cinema2.jpg",
+      "/assets/services/Cinematography/cinema3.jpg",
+      "/assets/services/Cinematography/cinema4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  },
+  {
+    "title": "Sound & video Editing",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/Sound-video-editing/soundvid1.jpg",
+      "/assets/services/Sound-video-editing/soundvid2.jpg",
+      "/assets/services/Sound-video-editing/soundvid3.jpg",
+      "/assets/services/Sound-video-editing/soundvid4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  },
+  {
+    "title": "Subtitling",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/subtitling/subtitles1.jpg",
+      "/assets/services/subtitling/subtitles2.jpg",
+      "/assets/services/subtitling/subtitles3.jpg",
+      "/assets/services/subtitling/subtitles4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  },
+  {
+    "title": "Weddings",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/Weddings/wedding1.jpg",
+      "/assets/services/Weddings/wedding2.jpg",
+      "/assets/services/Weddings/wedding3.jpg",
+      "/assets/services/Weddings/wedding4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  },
+  {
+    "title": "Music videos",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/Music-videos/musicv1.jpg",
+      "/assets/services/Music-videos/musicv2.jpg",
+      "/assets/services/Music-videos/musicv3.jpg",
+      "/assets/services/Music-videos/musicv4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  },
+  {
+    "title": "Movies & short films",
+    "icon": "/assets/provide/videography.svg",
+    "gallary": [
+      "/assets/services/Movies-and-short-films/movies1.jpg",
+      "/assets/services/Movies-and-short-films/movies2.jpg",
+      "/assets/services/Movies-and-short-films/movies3.jpg",
+      "/assets/services/Movies-and-short-films/movies4.jpg"
+    ],
+    "tag_line": "Quality Guaranteed",
+    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
+    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+  }
+]

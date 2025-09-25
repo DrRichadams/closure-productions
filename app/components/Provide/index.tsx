@@ -1,95 +1,83 @@
+"use client";
+
+import styles from "./services.module.css";
+import { useState, useEffect } from "react";
+import services from "../../../data/services.json";
 import Image from "next/image";
-import Link from "next/link";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination, Navigation, Thumbs } from "swiper/modules";
 
-interface datatype {
-  imgSrc: string;
-  country: string;
-  paragraph: string;
-}
+import "swiper/css";
+import "swiper/css/pagination";
+import "swiper/css/navigation";
 
-const Aboutdata: datatype[] = [
-  {
-    imgSrc: "/assets/provide/advertising.svg",
-    country: "Advertising",
-    paragraph:
-      "We display your business in front of hundreds of thousands of eyes",
-  },
-  {
-    imgSrc: "/assets/provide/weddings.svg",
-    country: "Weddings",
-    paragraph: "We capture memorable events in style",
-  },
-  {
-    imgSrc: "/assets/provide/photography.svg",
-    country: "Photography",
-    paragraph: "Everyone wants to stand out, we give you that chance",
-  },
-  {
-    imgSrc: "/assets/provide/videography.svg",
-    country: "Videography",
-    paragraph: "Our skilled team allows you to capture your favourite moments",
-  },
-];
-
-const Provide = () => {
+export default function Provide() {
+  const [thumbsSwiper, setThumbsSwiper] = useState(null);
   return (
-    <div id="services">
-      <div className="mx-auto max-w-7xl px-4 my-10 sm:py-20 lg:px-8">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8">
-          {/* COLUMN-1 */}
-          <div className="col-span-6 flex justify-center">
-            <div className="flex flex-col align-middle justify-center p-10">
-              <p className="text-4xl lg:text-6xl pt-4 font-semibold lh-81 mt-5 text-center lg:text-start">
-                Creative Solutions, Powerful Results
-              </p>
-              <h4 className="text-lg pt-4 font-normal lh-33 text-center lg:text-start text-bluegray">
-                A full suite of media and event services to capture, create, and
-                connect.
-              </h4>
-              <Link
-                href={"/services"}
-                className="mt-4 text-xl font-medium text-blue flex gap-2 mx-auto lg:mx-0 space-links"
-              >
-                Explore more services{" "}
-                <Image
-                  src={"/assets/provide/arrow.svg"}
-                  alt={"arrow"}
-                  width={20}
-                  height={20}
-                />
-              </Link>
-            </div>
-          </div>
+    <div className={styles.services_container} id="services">
+      <div className={styles.services_titles}>
+        <p className="text-4xl lg:text-6xl pt-4 font-semibold lh-81 mt-5 text-center lg:text-start">
+          Creative Solutions, <br />
+          Powerful Results
+        </p>
+        <h4 className="text-lg pt-4 font-normal lh-33 text-center lg:text-start text-bluegray">
+          A full suite of media and event services to capture, <br />
+          create, and connect.
+        </h4>
+      </div>
+      <Swiper
+        modules={[Pagination, Thumbs]}
+        onSwiper={setThumbsSwiper}
+        slidesPerView={"auto"}
+        spaceBetween={15}
+        loop={false}
+        pagination={{ clickable: true }}
+        className={`${styles.services_menu_swiper} thumbsSwiper`}
+      >
+        {services.map((service) => (
+          <SwiperSlide key={service.title} className={styles.services_slider}>
+            <button
+              key={service.title}
+              className={`${styles.service_menu_btn} service_menu_btn`}
+            >
+              <p>{service.title}</p>
+            </button>
+          </SwiperSlide>
+        ))}
+      </Swiper>
 
-          <div className="lg:col-span-1"></div>
-
-          {/* COLUMN-2 */}
-          <div className="col-span-6 lg:col-span-5">
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-x-16 gap-y-10 lg:gap-x-40 px-10 py-12 bg-bluebg rounded-3xl">
-              {Aboutdata.map((item, i) => (
-                <div
-                  key={i}
-                  className="bg-white rounded-3xl lg:-ml-32 p-6 shadow-xl"
-                >
-                  <Image
-                    src={item.imgSrc}
-                    alt={item.imgSrc}
-                    width={64}
-                    height={64}
-                    className="mb-5"
-                  />
-                  <h4 className="text-2xl font-semibold">{item.country}</h4>
-                  <h4 className="text-lg font-normal text-bluegray my-2">
-                    {item.paragraph}
-                  </h4>
+      <Swiper
+        modules={[Thumbs]}
+        spaceBetween={10}
+        thumbs={{ swiper: thumbsSwiper }}
+        className="mainSwiper"
+      >
+        {services.map((service) => (
+          <SwiperSlide key={service.title} className={`${styles.service_item}`}>
+            <div className={`${styles.service_collage} `}>
+              <div className={`${styles.service_icon}`}>
+                <img src={service.icon} alt="service icon" />
+              </div>
+              {service.gallary.map((service_img: string) => (
+                <div className={`${styles.image_placeholder}`}>
+                  <img src={service_img} alt="service_img" />
                 </div>
               ))}
             </div>
-          </div>
-        </div>
-      </div>
+            <div className={`${styles.service_details}`}>
+              <div className={styles.quality_tag}>
+                <img src="/check.png" alt="" />
+                <span>{service.tag_line}</span>
+              </div>
+              <h2 className={`${styles.service_title}`}>{service.title}</h2>
+              <p className={`${styles.service_description}`}>
+                {service.subscript}
+              </p>
+              <button className={styles.service_cta_btn}>Get a quote</button>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </div>
   );
-};
-
-export default Provide;
+}
