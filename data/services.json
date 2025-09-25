@@ -1,33 +1,33 @@
 [
   {
     "title": "Corporate marketing",
-    "icon": "/assets/provide/weddings.svg",
+    "icon": "/assets/services/cp-services-icons/corporate.png",
     "gallary": [
       "/assets/services/corporate-marketing/corporate1.jpg",
       "/assets/services/corporate-marketing/corporate2.jpg",
       "/assets/services/corporate-marketing/corporate3.jpg",
       "/assets/services/corporate-marketing/corporate4.jpg"
     ],
-    "tag_line": "Lightning Fast Delivery",
-    "subscript": "Capture every special moment and milestone with our expert coverage for corporate events and weddings. We ensure your memories and achievements are preserved with stunning visuals and professional storytelling.",
-    "cta_message": "Hi, can I get a rate card for Weddings and corporate events"
+    "tag_line": "Elevate Your Brand",
+    "subscript": "Strategic marketing solutions to enhance your corporate image and drive business growth.",
+    "cta_message": "Hi, I'm interested in your corporate marketing services. Can you provide more information?"
   },
   {
     "title": "Live streaming",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/live.png",
     "gallary": [
       "/assets/services/Live-streaming/live1.jpg",
       "/assets/services/Live-streaming/live2.jpg",
       "/assets/services/Live-streaming/live3.jpg",
       "/assets/services/Live-streaming/live4.jpg"
     ],
-    "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "tag_line": "Connect in Real-Time",
+    "subscript": "High-quality live streaming services for events, conferences, and webinars.",
+    "cta_message": "Hi, I'd like to know more about your live streaming services. What platforms do you support?"
   },
   {
     "title": "Video productions",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/vidprod.png",
     "gallary": [
       "/assets/services/Video-production/vip1.jpg",
       "/assets/services/Video-production/vip2.jpg",
@@ -35,25 +35,25 @@
       "/assets/services/Video-production/vip4.jpg"
     ],
     "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "subscript": "Professional video production services for commercials, promotional videos, and more.",
+    "cta_message": "Hi, I'm looking for video production services. Can you share some examples of your work?"
   },
   {
     "title": "Documentaries",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/documentaries.png",
     "gallary": [
       "/assets/services/Documentaries/doc1.jpg",
       "/assets/services/Documentaries/doc2.jpg",
       "/assets/services/Documentaries/doc3.jpg",
       "/assets/services/Documentaries/doc4.jpg"
     ],
-    "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "tag_line": "Unveiling Truths",
+    "subscript": "Compelling documentary filmmaking that tells impactful stories.",
+    "cta_message": "Hi, I'm interested in your documentary filmmaking services. What types of stories do you focus on?"
   },
   {
     "title": "Animation videos",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/animation.png",
     "gallary": [
       "/assets/services/Animation-videos/animate1.jpg",
       "/assets/services/Animation-videos/animate2.jpg",
@@ -61,25 +61,25 @@
       "/assets/services/Animation-videos/animate4.jpg"
     ],
     "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "subscript": "Engaging animation videos for explainer videos, marketing, and entertainment.",
+    "cta_message": "Hi, I need an animation video. Could you tell me about your animation styles and pricing?"
   },
   {
     "title": "Advertisements",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/ads.png",
     "gallary": [
       "/assets/services/Advertisements/ads6.jpg",
       "/assets/services/Advertisements/ads2.jpg",
       "/assets/services/Advertisements/ads7.jpg",
       "/assets/services/Advertisements/ads4.jpg"
     ],
-    "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "tag_line": "Engage and Convert",
+    "subscript": "Creative advertisement production to capture attention and drive conversions.",
+    "cta_message": "Hi, I'm looking to create an advertisement. What kind of ad production services do you offer?"
   },
   {
     "title": "Motion graphics",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/motion.png",
     "gallary": [
       "/assets/services/Motion-graphics/motion1.jpg",
       "/assets/services/Motion-graphics/motion2.jpg",
@@ -87,98 +87,98 @@
       "/assets/services/Motion-graphics/motion4.jpg"
     ],
     "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "subscript": "Dynamic motion graphics to enhance your brand's visual communication.",
+    "cta_message": "Hi, I need motion graphics for my project. Can you show me some examples of your motion graphics work?"
   },
   {
     "title": "E-comm photography",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/e-comm.png",
     "gallary": [
       "/assets/services/E-comm-photography/prod1.jpg",
       "/assets/services/E-comm-photography/prod2.jpg",
       "/assets/services/E-comm-photography/prod3.jpg",
       "/assets/services/E-comm-photography/prod4.jpg"
     ],
-    "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "tag_line": "Showcase Your Products",
+    "subscript": "High-quality product photography to boost your e-commerce sales.",
+    "cta_message": "Hi, I need product photography for my e-commerce store. What are your rates and availability?"
   },
   {
     "title": "Cinematography",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/cinema.png",
     "gallary": [
       "/assets/services/Cinematography/cinema1.jpg",
       "/assets/services/Cinematography/cinema2.jpg",
       "/assets/services/Cinematography/cinema3.jpg",
       "/assets/services/Cinematography/cinema4.jpg"
     ],
-    "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "tag_line": "Visually Stunning",
+    "subscript": "Expert cinematography services for film, television, and online content.",
+    "cta_message": "Hi, I'm interested in your cinematography services. Can we discuss my project's visual requirements?"
   },
   {
     "title": "Sound & video Editing",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/soundvideo.png",
     "gallary": [
       "/assets/services/Sound-video-editing/soundvid1.jpg",
       "/assets/services/Sound-video-editing/soundvid2.jpg",
       "/assets/services/Sound-video-editing/soundvid3.jpg",
       "/assets/services/Sound-video-editing/soundvid4.jpg"
     ],
-    "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "tag_line": "Crafting Audio-Visual Experiences",
+    "subscript": "Professional sound and video editing to bring your vision to life.",
+    "cta_message": "Hi, I need sound and video editing services. What's your turnaround time for a project?"
   },
   {
     "title": "Subtitling",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/subtitling.png",
     "gallary": [
       "/assets/services/subtitling/subtitles1.jpg",
       "/assets/services/subtitling/subtitles2.jpg",
       "/assets/services/subtitling/subtitles3.jpg",
       "/assets/services/subtitling/subtitles4.jpg"
     ],
-    "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "tag_line": "Making Content Accessible",
+    "subscript": "Accurate and reliable subtitling services for a global audience.",
+    "cta_message": "Hi, I need subtitling services for my video. What languages do you support?"
   },
   {
     "title": "Weddings",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/weddings.png",
     "gallary": [
       "/assets/services/Weddings/wedding1.jpg",
       "/assets/services/Weddings/wedding2.jpg",
       "/assets/services/Weddings/wedding3.jpg",
       "/assets/services/Weddings/wedding4.jpg"
     ],
-    "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "tag_line": "Cherishable Moments",
+    "subscript": "Capturing the magic of your special day with stunning wedding videography and photography.",
+    "cta_message": "Hi, I'm planning a wedding and need videography/photography. Can I see your wedding packages?"
   },
   {
     "title": "Music videos",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/music-videos.png",
     "gallary": [
       "/assets/services/Music-videos/musicv1.jpg",
       "/assets/services/Music-videos/musicv2.jpg",
       "/assets/services/Music-videos/musicv3.jpg",
       "/assets/services/Music-videos/musicv4.jpg"
     ],
-    "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "tag_line": "Visualizing Sound",
+    "subscript": "Creative music video production to amplify your music's impact.",
+    "cta_message": "Hi, I'm looking to produce a music video. What's your process and how can you help me visualize my song?"
   },
   {
     "title": "Movies & short films",
-    "icon": "/assets/provide/videography.svg",
+    "icon": "/assets/services/cp-services-icons/movies-film.png",
     "gallary": [
       "/assets/services/Movies-and-short-films/movies1.jpg",
       "/assets/services/Movies-and-short-films/movies2.jpg",
       "/assets/services/Movies-and-short-films/movies3.jpg",
       "/assets/services/Movies-and-short-films/movies4.jpg"
     ],
-    "tag_line": "Quality Guaranteed",
-    "subscript": "From concept to final cut, we create compelling videos that tell your brand's story and engage your audience.",
-    "cta_message": "Hi, can I get a rate card for Videography & Photography"
+    "tag_line": "Stories that Move",
+    "subscript": "Passionate filmmaking for movies and short films that resonate with audiences.",
+    "cta_message": "Hi, I have a short film project. Can you help with the filmmaking process from start to finish?"
   }
 ]
