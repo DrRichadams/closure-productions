@@ -58,8 +58,8 @@ export default function Provide() {
               <div className={`${styles.service_icon}`}>
                 <img src={service.icon} alt="service icon" />
               </div>
-              {service.gallary.map((service_img: string) => (
-                <div className={`${styles.image_placeholder}`}>
+              {service.gallary.map((service_img: string, index) => (
+                <div className={`${styles.image_placeholder}`} key={index}>
                   <img src={service_img} alt="service_img" />
                 </div>
               ))}
