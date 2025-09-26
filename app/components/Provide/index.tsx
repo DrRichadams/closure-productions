@@ -5,6 +5,7 @@ import { useState, useEffect } from "react";
 import services from "../../../data/services.json";
 import Image from "next/image";
 import { Swiper, SwiperSlide } from "swiper/react";
+import { Swiper as SwiperType } from "swiper";
 import { Pagination, Navigation, Thumbs } from "swiper/modules";
 
 import "swiper/css";
@@ -12,7 +13,7 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 
 export default function Provide() {
-  const [thumbsSwiper, setThumbsSwiper] = useState(null);
+  const [thumbsSwiper, setThumbsSwiper] = useState<SwiperType | null>(null);
   return (
     <div className={styles.services_container} id="services">
       <div className={styles.services_titles}>
@@ -26,7 +27,7 @@ export default function Provide() {
         </h4>
       </div>
       <Swiper
-        modules={[Pagination, Thumbs]}
+        modules={[Thumbs]}
         onSwiper={setThumbsSwiper}
         slidesPerView={"auto"}
         spaceBetween={15}
