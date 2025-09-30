@@ -11,7 +11,7 @@ import { collection, addDoc } from "firebase/firestore";
 const Newsletter = () => {
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
-  const [success, setSuccess] = useState("Thank you for submitting your email");
+  const [success, setSuccess] = useState("");
   const [loading, setLoading] = useState(false);
 
   function clearNotification() {
@@ -35,7 +35,6 @@ const Newsletter = () => {
   async function submitEmail(e: React.FormEvent) {
     e.preventDefault();
     if (!email) return;
-
     setLoading(true);
     try {
       // Save to Firestore "emails" collection
@@ -128,8 +127,18 @@ const Newsletter = () => {
                 position: "relative",
               }}
             >
-              {success ? <FcOk size={30} /> : ""}
-              {error ? <BiSolidErrorCircle size={30} color="red" /> : ""}
+              {/* {success ? <FcOk size={30} /> : ""} */}
+              {success ? (
+                <Image src={"/success.png"} alt="ICO" width={25} height={25} />
+              ) : (
+                ""
+              )}
+              {/* {error ? <BiSolidErrorCircle size={30} color="red" /> : ""} */}
+              {error ? (
+                <Image src={"/error.png"} alt="ICO" width={25} height={25} />
+              ) : (
+                ""
+              )}
               {success ? <p>Thank you for submitting your email</p> : ""}
               {error ? <p>Error submitting your email, try again</p> : ""}
               <button
