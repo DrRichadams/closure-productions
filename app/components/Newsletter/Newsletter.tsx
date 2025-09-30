@@ -1,6 +1,62 @@
+"use client";
+
 import Image from "next/image";
+import { FcOk } from "react-icons/fc";
+import { BiSolidErrorCircle } from "react-icons/bi";
+import { IoCloseCircleSharp } from "react-icons/io5";
+import { useState } from "react";
+import { db } from "@/app/firebase/config";
+import { collection, addDoc } from "firebase/firestore";
 
 const Newsletter = () => {
+  const [email, setEmail] = useState("");
+  const [error, setError] = useState("");
+  const [success, setSuccess] = useState("Thank you for submitting your email");
+  const [loading, setLoading] = useState(false);
+
+  function clearNotification() {
+    setEmail("");
+    setError("");
+    setSuccess("");
+  }
+
+  function auto_clear_notification() {
+    setTimeout(() => {
+      setEmail("");
+      setError("");
+      setSuccess("");
+    }, 5000);
+  }
+
+  function handleChange(e: React.ChangeEvent<HTMLInputElement>) {
+    setEmail(e.target.value);
+  }
+
+  async function submitEmail(e: React.FormEvent) {
+    e.preventDefault();
+    if (!email) return;
+
+    setLoading(true);
+    try {
+      // Save to Firestore "emails" collection
+      await addDoc(collection(db, "newsletters"), {
+        email: email,
+        createdAt: new Date(),
+      });
+      setSuccess("Thank you for your submission, email submitted");
+      setEmail("");
+      setError("");
+      auto_clear_notification();
+    } catch (err) {
+      console.error("Error adding document: ", err);
+      setEmail("");
+      setSuccess("");
+      setError("Failed to save email");
+    } finally {
+      setLoading(false);
+    }
+  }
+
   return (
     <div className="-mt-32 relative z-3">
       <div className="mx-auto max-w-2xl lg:max-w-7xl bg-blue-500 rounded-3xl">
@@ -41,13 +97,15 @@ const Newsletter = () => {
             <h4 className="text-base font-normal mb-7 text-offwhite">
               Be the first to know about our latest updates and offers.
             </h4>
-            <div className="flex gap-0">
+            <form className="flex gap-0" onSubmit={(e) => submitEmail(e)}>
               <input
-                type="Email address"
-                name="q"
+                type="Email"
                 className="py-4 text-sm w-full text-black bg-white rounded-l-lg pl-4"
                 placeholder="Enter your email address"
                 autoComplete="off"
+                required
+                value={email}
+                onChange={handleChange}
               />
               <button className="bg-midblue text-white font-medium py-2 px-4 rounded-r-lg">
                 <Image
@@ -56,6 +114,33 @@ const Newsletter = () => {
                   width={20}
                   height={20}
                 />
+              </button>
+            </form>
+            <div
+              style={{
+                backgroundColor: "#fff",
+                borderRadius: "12px",
+                padding: "1rem",
+                marginTop: "10px",
+                display: error || success ? "flex" : "none",
+                alignItems: "center",
+                gap: "8px",
+                position: "relative",
+              }}
+            >
+              {success ? <FcOk size={30} /> : ""}
+              {error ? <BiSolidErrorCircle size={30} color="red" /> : ""}
+              {success ? <p>Thank you for submitting your email</p> : ""}
+              {error ? <p>Error submitting your email, try again</p> : ""}
+              <button
+                style={{
+                  position: "absolute",
+                  right: "15px",
+                  cursor: "pointer",
+                }}
+                onClick={() => clearNotification()}
+              >
+                <IoCloseCircleSharp size={30} color="red" />
               </button>
             </div>
           </div>

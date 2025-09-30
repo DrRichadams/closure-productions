@@ -14,7 +14,7 @@ const footer_links: ProductType[] = [
   },
   {
     id: 2,
-    link: ["Services", "Contact"],
+    link: ["Services"],
   },
 ];
 
