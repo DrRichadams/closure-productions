@@ -49,7 +49,17 @@ const Why = () => {
             <div className="mt-10">
               {whydata.map((items, i) => (
                 <div className="flex mt-4" key={i}>
-                  <div className="rounded-full h-10 w-12 flex items-center justify-center bg-circlebg">
+                  <div
+                    className="rounded-full flex items-center justify-center bg-circlebg"
+                    style={{
+                      minWidth: "2.5rem",
+                      maxWidth: "2.5rem",
+                      minHeight: "2.5rem",
+                      maxHeight: "2.5rem",
+                      width: "100%",
+                      height: "100%",
+                    }}
+                  >
                     <Image
                       src="/assets/why/check.svg"
                       alt="check-image"
