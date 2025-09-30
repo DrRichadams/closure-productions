@@ -141,7 +141,7 @@ const Newsletter = () => {
               )}
               {success ? <p>Thank you for submitting your email</p> : ""}
               {error ? <p>Error submitting your email, try again</p> : ""}
-              <button
+              {/* <button
                 style={{
                   position: "absolute",
                   right: "15px",
@@ -150,7 +150,7 @@ const Newsletter = () => {
                 onClick={() => clearNotification()}
               >
                 <IoCloseCircleSharp size={30} color="red" />
-              </button>
+              </button> */}
             </div>
           </div>
         </div>
