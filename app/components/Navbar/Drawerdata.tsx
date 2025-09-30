@@ -8,15 +8,15 @@ interface NavigationItem {
 }
 
 const navigation: NavigationItem[] = [
-  { name: 'Home', href: '/', current: true },
-  { name: 'Services', href: '#services', current: false },
-  { name: 'About', href: '#about', current: false },
-  { name: 'Project', href: '#project', current: false },
-  { name: 'Help', href: '/', current: false },
-]
+  { name: "Home", href: "#home", current: true },
+  { name: "Services", href: "#services", current: false },
+  { name: "About", href: "#about", current: false },
+  // { name: 'Project', href: '#project', current: false },
+  // { name: 'Help', href: '/', current: false },
+];
 
 function classNames(...classes: string[]) {
-  return classes.filter(Boolean).join(' ')
+  return classes.filter(Boolean).join(" ");
 }
 
 const Data = () => {
@@ -30,26 +30,28 @@ const Data = () => {
                 key={item.name}
                 href={item.href}
                 className={classNames(
-                  item.current ? 'text-black hover:opacity-100' : 'hover:text-black hover:opacity-100',
-                  'px-2 py-1 text-lg font-normal opacity-75 block'
+                  item.current
+                    ? "text-black hover:opacity-100"
+                    : "hover:text-black hover:opacity-100",
+                  "px-2 py-1 text-lg font-normal opacity-75 block"
                 )}
-                aria-current={item.current ? 'page' : undefined}
+                aria-current={item.current ? "page" : undefined}
               >
                 {item.name}
               </Link>
             ))}
             <div className="mt-4"></div>
-            <button className="bg-white w-full text-blue border border-lightblue font-medium py-2 px-4 rounded">
+            {/* <button className="bg-white w-full text-blue border border-lightblue font-medium py-2 px-4 rounded">
               Sign In
             </button>
             <button className="bg-lightblue w-full hover:bg-blue hover:text-white text-blue font-medium my-2 py-2 px-4 rounded">
               Sign up
-            </button>
+            </button> */}
           </div>
         </div>
       </div>
     </div>
   );
-}
+};
 
 export default Data;
